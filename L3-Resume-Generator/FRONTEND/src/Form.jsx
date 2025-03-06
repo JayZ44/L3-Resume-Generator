@@ -186,7 +186,7 @@ const Form = () => {
       </div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <div style={{ flex: 1, marginRight: "10px" }}>
-          <h2>Generated Resume:</h2>
+          <h2>Resume:</h2>
           <div className="resumeBox">
             <ReactMarkdown>{resume}</ReactMarkdown>
           </div>
